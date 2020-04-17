@@ -1,14 +1,14 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: Mulgyeol Labs
+title: Mulgyeol Labs
+description: Mulgyeol Labs
 tags:
   - blog
   - template
   - jekyll
   - theme
   - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
+email: taet777@naver.com
+disqus_username:
 show_hero: true
 menu:
   - title: Home
