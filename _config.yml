@@ -18,9 +18,6 @@ menu:
     url: /tags
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
-
 
 # Social Media Settings
 # Remove the item if you don't need it
@@ -57,7 +54,7 @@ collections:
     output: true
 paginate_path: "/page/:num/"
 show_get_theme_btn: false
-use_logo: true
+use_logo: false
 
 # Content paginator
 paginate_content:
