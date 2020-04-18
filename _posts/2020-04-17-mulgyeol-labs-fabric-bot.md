@@ -2,7 +2,7 @@
 date: 2020-04-17 19:26:40
 layout: post
 title: Mulgyeol Labs Fabric Bot
-subtitle: Mulgyeol Labs Fabric Bot
+subtitle: Mulgyeol Labs GitLab Bot, Developed by Mycroft
 description: Mulgyeol Labs GitLab Bot, Developed by Mycroft
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
 optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559820489/js-code_n83m7a.jpg
@@ -43,17 +43,17 @@ author: MycroftKang
 *  `Merge Request` 작성자의 승인은 반영되지 않습니다.
 *  `AutoMerge` 라벨이 추가되지 않았거나, 이미 병합된 `Merge Request`에 위 명령어를 입력하면, @MGYLBot은 해당 명령을 무시합니다.
 
-> [!NOTE]
-> Information the user should notice even if skimming
-
-> [!IMPORTANT]
-> Essential information required for user success
-
 <div class="note">
   <p><strong>Note!</strong></p>
   <p>Information the user should notice even if skimming</p>
 </div>
 
+<div class="tip">
+  <p><strong>Tip!</strong></p>
+  <p>Information the user should notice even if skimming</p>
+</div>
 
-
-
+<div class="warning">
+  <p><strong>Warning!</strong></p>
+  <p>Information the user should notice even if skimming</p>
+</div>
