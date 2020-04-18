@@ -2,11 +2,8 @@
 ---
 @import "jekflix";
 
-body {
-    font-family: "Noto Sans", "Noto Sans CJK KR", sans-serif !important;
-}
-
 .warning {
+    @include center(rem(730px));
     background-color: #ffdddd;
     border-left: 8px solid #f44336;
     padding: 5px 10px 2px 15px;
@@ -15,6 +12,7 @@ body {
 }
 
 .tip {
+    @include center(rem(730px));
     background-color: #ddffdd;
     border-left: 8px solid #4CAF50;
     padding: 5px 10px 2px 15px;
@@ -23,9 +21,29 @@ body {
 }
 
 .note {
+    @include center(rem(730px));
     background-color: #ffffcc;
     border-left: 8px solid #ffeb3b;
     padding: 5px 10px 2px 15px;
     margin-bottom: 30px;
     line-height: 1.4;
+}
+
+.note p, .tip p, .warning p {
+    margin-bottom: 0.85em;
+}
+.note img, .tip img, .warning img {
+    margin: 0px;
+}
+
+td .warning {
+    margin-bottom: 10px;
+}
+
+td .tip {
+    margin-bottom: 10px;
+}
+
+td .note {
+    margin-bottom: 10px;
 }
