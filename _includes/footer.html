@@ -5,6 +5,11 @@
           <svg><use xlink:href="#icon-github"></use></svg>
         </a>
       {% endif %}
+      {% if site.gitlab_username %}
+        <a href="https://gitlab.com/{{ site.gitlab_username }}" title="Gitlab">
+          <svg><use xlink:href="#icon-gitlab"></use></svg>
+        </a>
+      {% endif %}
       {% if site.facebook_username %}
         <a href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook">
           <svg><use xlink:href="#icon-facebook"></use></svg>
@@ -35,7 +40,7 @@
     {% include links.html %}
 
     <p>
-      Copyright © 2020 <span>Mulgyeol Labs.</span> All Rights Reserved.
+      © 2020 <span>Mulgyeol Labs.</span>
     </p>
     <!-- <p>
       <span>Jekflix</span> was made with <svg class="love"><use xlink:href="#icon-heart"></use></svg> by <a href="https://rossener.com" target="_blank" class="creator">Thiago Rossener</a>
@@ -45,6 +50,9 @@
 {% assign social_urls = '' %}
 {% if site.github_username %}
     {% assign social_urls = social_urls | append: '"https://github.com/' | append: site.github_username | append: '",' %}
+{% endif %}
+{% if site.gitlab_username %}
+    {% assign social_urls = social_urls | append: '"https://gitlab.com/' | append: site.gitlab_username | append: '",' %}
 {% endif %}
 {% if site.facebook_username %}
     {% assign social_urls = social_urls | append: '"https://www.facebook.com/' | append: site.facebook_username | append: '",' %}

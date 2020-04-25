@@ -19,14 +19,15 @@ body {
   .logo {
     display: inline-block;
     margin: 0;
-    height: rem(27px);
-    line-height: rem(27px);
+    height: rem(32px);
+    line-height: rem(32px);
 
     a {
       display: block;
       color: $accentDark;
       text-decoration: none;
-      font-size: rem(27px);
+      font-family: Poppins SemiBold;
+      font-size: rem(32px);
       position: relative;
       outline: 0;
     }

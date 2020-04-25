@@ -1,6 +1,7 @@
 ---
 ---
 @import "jekflix";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 .warning {
     @include center(rem(730px));
@@ -30,7 +31,8 @@
 }
 
 .note p, .tip p, .warning p {
-    margin-bottom: 0.85em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 .note img, .tip img, .warning img {
     margin: 0px;
