@@ -15,11 +15,22 @@ author: MycroftKang
 
 # Auto Merge
 
-* [Mulgyeol Labs](https://gitlab.com/mgylabs) 네임스페이스에 프로젝트를 생성하면, Shared project로 인식되어, `Developer`는 `master` 브랜치에 직접 push 할 수 없습니다.
 
-* `Developer`는 브랜치를 생성하여, 해당 브랜치로 [체크아웃](https://backlog.com/git-tutorial/kr/stepup/stepup2_3.html) 한 후 변경사항을 push 할 수 있습니다.
+<div class="warning">
+  <p><strong>Warning!</strong></p>
+  <p>Mulgyeol Labs 네임스페이스에 프로젝트를 생성하면, Shared project로 인식되어, <code>Developer</code>는 <code>master</code> 브랜치에 직접 push 할 수 없습니다.</p>
+</div>
 
-*  해당 브랜치의 변경사항을 `master` 브랜치에 반영하려면, `Merge Request`를 생성해야 합니다.
+<div class="tip">
+  <p><strong>Tip!</strong></p>
+  <p><code>Developer</code>는 브랜치를 생성하여, 해당 브랜치로 <a href="https://backlog.com/git-tutorial/kr/stepup/stepup2_3.html">체크아웃</a> 한 후 변경사항을 push 할 수 있습니다.</p>
+</div>
+
+<div class="tip">
+  <p><strong>Tip!</strong></p>
+  <p>해당 브랜치의 변경사항을 <code>master</code> 브랜치에 반영하려면, <code>Merge Request</code>를 생성해야 합니다.</p>
+</div>
+
 
 ## 1. Merge Request 병합 요청하기
 `Merge Request`에 `AutoMerge` 라벨을 추가하면,  @MGYLBot이 병합 조건을 확인하고, 조건이 만족되면, 해당 `Merge Request` 병합합니다.
@@ -32,9 +43,11 @@ author: MycroftKang
 *  `Merge Request`에 충돌이 없어야 합니다.
 
 위 조건이 만족되면, @MGYLBot이 자동으로 해당 `Merge Request`를 병합합니다.  
+
+
 <div class="note">
   <p><strong>Note!</strong></p>
-  <p>`Merge Request`에 `AutoMerge` 라벨을 제거하면, @MGYLBot은 해당 `Merge Request` 더 이상 관여하지 않습니다.</p>
+  <p><code>Merge Request</code>에 <code>AutoMerge</code> 라벨을 제거하면, @MGYLBot은 해당 <code>Merge Request</code> 더 이상 관여하지 않습니다.</p>
 </div>
 
 ## 2. Merge Request 승인하기
@@ -45,12 +58,12 @@ author: MycroftKang
 
 <div class="note">
   <p><strong>Note!</strong></p>
-  <p>`Merge Request` 작성자의 승인은 반영되지 않습니다.</p>
+  <p><code>Merge Request</code> 작성자의 승인은 반영되지 않습니다.</p>
 </div>
 
 <div class="warning">
   <p><strong>Warning!</strong></p>
-  <p>`AutoMerge` 라벨이 추가되지 않았거나, 이미 병합된 `Merge Request`에 위 명령어를 입력하면, @MGYLBot은 해당 명령을 무시합니다.</p>
+  <p><code>AutoMerge</code> 라벨이 추가되지 않았거나, 이미 병합된 <code>Merge Request</code>에 위 명령어를 입력하면, @MGYLBot은 해당 명령을 무시합니다.</p>
 </div>
 
 <!-- <div class="note">
