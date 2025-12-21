@@ -12,9 +12,9 @@ tags:
 author: MycroftKang
 ---
 
-**FlatBall Closed Beta 프로그램 이용약관**
+**FlatBall Closed Beta Program 이용약관**
 
-본 이용약관(이하 “본 약관”)은 FlatBall(이하 “게임”)의 개발자(이하 “개발자”)가 제공하는 Closed Beta 프로그램(이하 “베타 프로그램”)에 참여하는 이용자(이하 “참여자”)의 권리, 의무 및 책임 사항을 규정함을 목적으로 합니다.
+본 이용약관(이하 “본 약관”)은 FlatBall(이하 “게임”)의 개발자(이하 “개발자”)가 제공하는 Closed Beta Program(이하 “베타 프로그램”)에 참여하는 이용자(이하 “참여자”)의 권리, 의무 및 책임 사항을 규정함을 목적으로 합니다.
 
 **제1조 (목적)**
 
