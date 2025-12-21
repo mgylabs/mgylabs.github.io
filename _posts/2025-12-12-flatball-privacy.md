@@ -1,7 +1,7 @@
 ---
-date: 2025-12-11 10:06:40
+date: 2025-12-12 10:06:40
 layout: post
-title: Privacy Policy
+title: FlatBall Privacy Policy
 subtitle: FlatBall
 description: FlatBall
 image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559820489/js-code_n83m7a.jpg
