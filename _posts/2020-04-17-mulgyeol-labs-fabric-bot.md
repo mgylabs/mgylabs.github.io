@@ -11,6 +11,7 @@ tags:
   - python
   - bot
 author: MycroftKang
+published: false
 ---
 
 # Auto Merge
